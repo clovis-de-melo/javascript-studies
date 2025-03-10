@@ -2,4 +2,24 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding-top: 20px;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+button {
+    align-items: center;
+}
+
+p {
+    padding: 30px;
 }
