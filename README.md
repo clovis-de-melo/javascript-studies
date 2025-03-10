@@ -14,13 +14,14 @@ Comparison and Logical operators are used to test for **true** or **false**.
 
 Comparison operators are used in logical statements to determine equality or difference between variables or values.
 
-Given that **x = 5**, the table below explains the comparison operators:
+Given that 
+```javascript 
+x = 5
+```
 
-|Operator|Description|Comparing|Returns|
-|--------|-----------|---------|-------|
-|==|equal to|x == 7|false|
-|===|equal value and equal type|x === "5"|False|
-|!=|not equal|x != 8|true|
+The table below explains the comparison operators:
+
+![JavaScript Operators Table](/img/JavaScript%20Operators%20Table.png)
 
 ## References 
 
