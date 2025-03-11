@@ -8,33 +8,42 @@
     <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" type="image/x-icon">
 </head>
 <body>
-    <h1>JavaScript Studies</h1>
-    <div>
-        <h2>Change HTML content</h2>
-        <button onclick="changeParagraph('paragraph')">Click to change the HTML content below</button>
-        <button onclick="resetParagraph('paragraph')">Reset text</button>
-        <p id="paragraph">This is a paragraph.</p>
-    </div>
-    <div>
-        <h2>Show &amp; Hide HTML elements</h2>
-        <button onclick="showContent('content')">Show content</button>
-        <button onclick="hideContent('content')">Hide content</button>
-        <p id="content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi fugiat perspiciatis et est, similique omnis, voluptatibus nisi ratione odit assumenda nemo molestias expedita deserunt accusamus neque esse, ad enim quod!</p>
-       
-    </div>
-    <div>
-        <h2>Change the style of a HTML element</h2>
-        <button onclick="changeFontsize('content-font-style')">Change font size</button>
-        <button onclick="resetFontsize('content-font-style')">Reset font size</button>
-        <p id="content-font-size">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi fugiat perspiciatis et est, similique omnis, voluptatibus nisi ratione odit assumenda nemo molestias expedita deserunt accusamus neque esse, ad enim quod!</p>
-        
-    </div>
-    <div>
-        <button onclick="changeFontcolor('content-font-color')">Change font color</button>
-        <button onclick="resetFontcolor('content-font-color')">Reset font color</button>
-        <p id="content-font-color">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi fugiat perspiciatis et est, similique omnis, voluptatibus nisi ratione odit assumenda nemo molestias expedita deserunt accusamus neque esse, ad enim quod!</p>
-        
-    </div>
-    <script src="/app.js"></script>
+    <main>
+        <h1>JavaScript Studies</h1>
+    <section>
+        <div>
+            <h2>Change HTML content</h2>
+            <button onclick="changeParagraph('paragraph')">Click to change the HTML content below</button>
+            <button onclick="resetParagraph('paragraph')">Reset text</button>
+            <p id="paragraph">This is a paragraph.</p>
+        </div>
+    </section>    
+    <section>
+        <div>
+            <h2>Show &amp; Hide HTML elements</h2>
+            <button onclick="showContent('content')">Show content</button>
+            <button onclick="hideContent('content')">Hide content</button>
+            <p id="content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi fugiat perspiciatis et est, similique omnis, voluptatibus nisi ratione odit assumenda nemo molestias expedita deserunt accusamus neque esse, ad enim quod!</p>
+        </div>
+    </section>
+    <section>
+        <div>
+            <h2>Change the style of a HTML element</h2>
+            <button onclick="changeFontsize('content-font-style')">Change font size</button>
+            <button onclick="resetFontsize('content-font-style')">Reset font size</button>
+            <p id="content-font-size">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi fugiat perspiciatis et est, similique omnis, voluptatibus nisi ratione odit assumenda nemo molestias expedita deserunt accusamus neque esse, ad enim quod!</p>
+            
+        </div>
+    </section>
+    <section>
+        <div>
+            <button onclick="changeFontcolor('content-font-color')">Change font color</button>
+            <button onclick="resetFontcolor('content-font-color')">Reset font color</button>
+            <p id="content-font-color">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi fugiat perspiciatis et est, similique omnis, voluptatibus nisi ratione odit assumenda nemo molestias expedita deserunt accusamus neque esse, ad enim quod!</p>
+            
+        </div>
+    </section>
+    </main>
+    <script src="/app.js"></script>    
 </body>
 </html>
