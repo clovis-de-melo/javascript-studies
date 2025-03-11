@@ -44,6 +44,13 @@ console.log(x >= 5) // true
 
 console.log(x <= 8) // true
 
+// ? ternary operator
+
+// client, if the customer has over 100 points premium, else regular
+
+let points = 101;
+let customerType = points > 100 ? "premium" : "regular";
+console.log(customerType);
 
 // How Can it be Used
 //Comparison operators can be used in conditional statements to compare values and take action depending on the result
