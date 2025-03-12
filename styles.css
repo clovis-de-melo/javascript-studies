@@ -23,3 +23,45 @@ button {
 p {
     padding: 30px;
 }
+
+#currency {
+    /* border: 2px solid grey; */
+   /*  margin-top: 60px; */ 
+    width: 100vw;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    
+}
+
+#currency-content p {
+    text-align: center;
+}
+
+#dolar {
+    /* border: 2px solid grey; */
+    height: 100px;
+    width: 450px;
+    text-align: center;
+}
+
+#dolar h3 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#real {
+    /* border: 2px solid grey; */
+    height: 100px;
+    width: 450px;
+    text-align: center;
+}
+
+#real h3 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
