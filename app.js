@@ -51,6 +51,7 @@ function convert() {
     console.log("convert button is working");
 }
 
+
 // Using ID
 
 /* let convertButton = document.querySelector("#convert-Button")
@@ -79,6 +80,10 @@ brlInput.addEventListener("keyup", () => {
 
 function showDateAndTime() {
     document.getElementById('date-and-time').innerHTML = Date();
+}
+
+function hideDateAndTime() {
+    document.getElementById('date-and-time').style.display = "none";
 }
 
 // Currency Converter 
