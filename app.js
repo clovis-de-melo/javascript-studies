@@ -101,3 +101,12 @@ brlInput.addEventListener("keyup"), () => {
 
 }
 
+// PopUp Model 
+
+const buttonClick = document.querySelector('.modal-button')
+
+buttonClick.addEventListener('click', () => {
+    console.log("Button click feature is working")
+}
+)
+  
