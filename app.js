@@ -75,6 +75,12 @@ brlInput.addEventListener("keyup", () => {
     console.log(brlInput.value)
 }) */
 
+// Show date and time 
+
+function showDateAndTime() {
+    document.getElementById('date-and-time').innerHTML = Date();
+}
+
 // Currency Converter 
 
 let dolar = 5.84
