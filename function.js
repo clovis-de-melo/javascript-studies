@@ -65,7 +65,33 @@ console.log(numero) // 5
 // functions create scope 
 // scope is the visibility of a value 
 
-function x () {
+function whateverName () {
     const myConst = 'valor'
 }
 
+// variables created outside the function block can be accessed 
+// variables created inside the function block cannot be accessed outside the block. they can only be accessed inside the block 
+
+// how to export a const create inside a function (return)
+
+function getAge () {
+    const age = 36
+    return age
+}
+
+function getNumber () {
+    return 5
+}
+
+const result = getNumber() + 2 
+console.log(result)
+
+// Parameters and Arguments 
+// Argument is a value added when the function is 
+// Parameter receives the value as an argument
+
+function somar () {
+    return 1 + 1
+}
+
+somar()
