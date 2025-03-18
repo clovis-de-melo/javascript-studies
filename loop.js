@@ -13,3 +13,4 @@ let recipe = ["sugar", "water", "salt", "chocolate"]
 for(let item of recipe) {
     console.log(recipe)
 }
+
