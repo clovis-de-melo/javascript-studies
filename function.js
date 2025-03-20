@@ -87,11 +87,23 @@ const result = getNumber() + 2
 console.log(result)
 
 // Parameters and Arguments 
-// Argument is a value added when the function is 
-// Parameter receives the value as an argument
+// Argument is a value added when the function is invoked E.g: somar(1, 1) somar(4, 3)
+// Parameter is a variable that receives the value as an argument
 
 function somar () {
     return 1 + 1
 }
 
-somar()
+somar() 
+console.log(somar())
+
+// 
+
+function sumNumbers (x, y) {
+    return x + y
+}
+
+console.log(sumNumbers(1, 1))
+
+// 
+
