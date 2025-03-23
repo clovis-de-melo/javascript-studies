@@ -8,6 +8,9 @@
 
 ## JavaScript Operators
 
+<details>
+<summary>See JavaScript Operators details</summary>
+
 Comparison and Logical operators are used to test for **true** or **false**.
 
 ## JavaScript Operators - Comparison
@@ -22,6 +25,8 @@ x = 5
 The table below explains the comparison operators:
 
 ![JavaScript Operators Table](/img/JavaScript%20Operators%20Table.png)
+
+</details>
 
 ## References 
 
