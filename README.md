@@ -2,6 +2,7 @@
 
 ## Sections
 
+* [What is JavaScript?](#what-is-javascript)
 * [JavaScript Operators](#javascript-operators)
 * [JavaScript Operators - Comparison](#javascript-operators---comparison)
 * [References](#references)
