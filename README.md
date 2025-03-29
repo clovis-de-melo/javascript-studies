@@ -2,12 +2,8 @@
 
 ## Sections
 
-<<<<<<< Updated upstream
-* [What is JavaScript?](#what-is-javascript)
-=======
 * [What is JavaScript](#what-is-javascript)
 * [JavaScript Keywords](#javascript-keywords)
->>>>>>> Stashed changes
 * [JavaScript Operators](#javascript-operators)
 * [JavaScript Operators - Comparison](#javascript-operators---comparison)
 * [References](#references)
@@ -33,6 +29,7 @@ Our [Reserved Words Reference](https://www.w3schools.com/js/js_reserved.asp) lis
 
 Here is a list of some of the keywords you will learn about in this tutorial:
 
+|-------|-----------|
 |Keyword|Description|
 |var|Declares a variable|
 |let|Declares a block variable|
