@@ -29,8 +29,9 @@ Our [Reserved Words Reference](https://www.w3schools.com/js/js_reserved.asp) lis
 
 Here is a list of some of the keywords you will learn about in this tutorial:
 
-|-------|-----------|
+
 |Keyword|Description|
+|-------|-----------|
 |var|Declares a variable|
 |let|Declares a block variable|
 |const|Declares a block constant|
