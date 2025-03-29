@@ -8,6 +8,7 @@ Feel free to fork this repository.
 
 * [What is JavaScript](#what-is-javascript)
 * [JavaScript Keywords](#javascript-keywords)
+* [JavaScript Variables](#javascript-variables)
 * [JavaScript Operators](#javascript-operators)
 * [JavaScript Operators - Comparison](#javascript-operators---comparison)
 * [References](#references)
@@ -46,6 +47,25 @@ Here is a list of some of the keywords you will learn about in this tutorial:
 |return|Exits a function|
 |try|Implements error handling to a block of statements|
 
+</details>
+
+## JavaScript Variables 
+
+<details>
+<summary>See JavaScript Variables details</summary>
+
+In a programming language, variables are used to store data values.
+
+JavaScript uses the keywords var, let and const to declare variables.
+
+An equal sign is used to assign values to variables.
+
+In this example, x is defined as a variable. Then, x is assigned (given) the value 6:
+
+```javascript
+let x;
+x = 6;
+```
 </details>
 
 ## JavaScript Operators
