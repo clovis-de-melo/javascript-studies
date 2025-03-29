@@ -3,7 +3,12 @@
 ## Sections
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 * [What is JavaScript?](#what-is-javascript)
+=======
+* [What is JavaScript](#what-is-javascript)
+* [JavaScript Keywords](#javascript-keywords)
+>>>>>>> Stashed changes
 =======
 * [What is JavaScript](#what-is-javascript)
 * [JavaScript Keywords](#javascript-keywords)
