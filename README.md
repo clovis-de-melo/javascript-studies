@@ -1,5 +1,9 @@
 # JavaScript Studies <img align="left" alt="JavaScript logo" title="JavaScript" width="35px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" style="padding-right:10px;" />
 
+Repository created in order to study and practice JavaScript programming language.
+
+Feel free to fork this repository.
+
 ## Sections
 
 * [What is JavaScript](#what-is-javascript)
