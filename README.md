@@ -116,3 +116,7 @@ The table below explains the comparison operators:
 [HTML Symbols, Entities, Characters and Codes | Toptal Designers](https://www.toptal.com/designers/htmlarrows/)
 
 </details>
+
+<br />
+
+<a href="#top">Back to top :arrow_up:</a>
