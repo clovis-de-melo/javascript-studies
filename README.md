@@ -104,6 +104,15 @@ The table below explains the comparison operators:
 
 ## References 
 
+<details>
+<summary>See References details</summary>
+
 `W3 Schools`
 
 [JS Tutorial | W3 Schools](https://www.w3schools.com/js/default.asp)
+
+`Toptal Designers`
+
+[HTML Symbols, Entities, Characters and Codes | Toptal Designers](https://www.toptal.com/designers/htmlarrows/)
+
+</details>
