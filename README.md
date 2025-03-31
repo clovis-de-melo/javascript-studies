@@ -27,7 +27,7 @@ JavaScript (JS) is a versatile, lightweight, interpreted programming language pr
 ## JavaScript Indentation (best practices)
 
 <details>
-<summary>See JavaScript Indentation (best practice) details</summary>
+<summary>See JavaScript Indentation (best practices) details</summary>
 
 Spacing and indentation should be consistent throughout your code. Many developers choose to use 4-space or 2-space indentation. In JavaScript, each nested statement (e.g., a statement following a "&#123;" brace) should be indented exactly once more than the previous line's indentation.
 
