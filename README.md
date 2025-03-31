@@ -7,6 +7,7 @@ Feel free to fork this repository.
 ## Sections
 
 * [What is JavaScript](#what-is-javascript)
+* [JavaScript Indentation (best practices)](#javascript-indentation-best-practices)
 * [JavaScript Keywords](#javascript-keywords)
 * [JavaScript Variables](#javascript-variables)
 * [JavaScript Operators](#javascript-operators)
@@ -21,6 +22,17 @@ Feel free to fork this repository.
 Created by Brendan Eich, in 1995, JavaScript is a scripting language that allows developers to implement complex features on web pages beyond simple static content. 
 
 JavaScript (JS) is a versatile, lightweight, interpreted programming language primarily used to add interactivity and dynamic content to web pages, but also used in various other environments like Node.js for server-side development. 
+</details>
+
+## JavaScript Indentation (best practices)
+
+<details>
+<summary>See JavaScript Indentation (best practice) details</summary>
+
+Spacing and indentation should be consistent throughout your code. Many developers choose to use 4-space or 2-space indentation. In JavaScript, each nested statement (e.g., a statement following a "{" brace) should be indented exactly once more than the previous line's indentation.
+
+Here are some examples of bad indentation in JavaScript:
+
 </details>
 
 ## JavaScript Keywords 
