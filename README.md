@@ -68,7 +68,7 @@ Here is a list of some of the keywords you will learn about in this tutorial:
 
 In a programming language, variables are used to store data values.
 
-JavaScript uses the keywords var, let and const to declare variables.
+JavaScript uses the keywords **var**, **let** and **const** to declare variables.
 
 An equal sign is used to assign values to variables.
 
