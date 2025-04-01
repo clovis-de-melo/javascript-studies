@@ -78,6 +78,14 @@ In this example, x is defined as a variable. Then, x is assigned (given) the val
 let x;
 x = 6;
 ```
+
+Note: 
+
+The `var` keyword was used in all JavaScript code from 1995 to 2015 and should only be used in code written for older browsers.
+
+The `let` and `const` keywords were added to JavaScript in 2015.
+
+
 </details>
 
 ## JavaScript Operators
