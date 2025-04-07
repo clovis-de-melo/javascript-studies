@@ -123,6 +123,15 @@ The table below explains the comparison operators:
 
 [HTML Symbols, Entities, Characters and Codes | Toptal Designers](https://www.toptal.com/designers/htmlarrows/)
 
+`JavaScript Info`
+
+[The Modern JavaScript Tutorial | JavaScript Info](https://javascript.info/)
+
+`JS Fiddle`
+
+[JSFiddle - Code Playground](https://jsfiddle.net/)
+
+
 </details>
 
 <br />
