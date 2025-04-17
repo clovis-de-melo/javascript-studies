@@ -83,7 +83,7 @@ p {
 
 #modal-button {
     height: 30px;
-    /* border-radius: 10px; */
+    border-radius: 10px;
     margin-top: 250px;
     /* border: 0; */
     background-color: rgb(78, 115, 226);
@@ -99,5 +99,18 @@ p {
 .modal-content {
     /* display: none; */
     border: 1px solid black;
-    height: 400px;
+    height: 600px;
+    width: 600px;
+    position: absolute;
+    display: none;
+}
+
+.modal-content-close-x {
+    text-align: end;
+    margin-right: 8px;
+    margin-top: 4px;
+}
+
+.modal-content-close-x:hover {
+    cursor: pointer;
 }
