@@ -96,3 +96,8 @@ p {
     cursor: pointer;
 } */
 
+.modal-content {
+    /* display: none; */
+    border: 1px solid black;
+    height: 400px;
+}
