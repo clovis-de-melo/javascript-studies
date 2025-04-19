@@ -114,3 +114,10 @@ function closeModal() {
     document.getElementById("modal-button").style.display = "block";
     document.getElementById("modal-content").style.display = "none";
 }
+
+// Several cards section 
+
+function openCard() {
+    console.log("function openCard is working")
+}
+
