@@ -122,11 +122,24 @@ p {
     gap: 40px;
     border: 1px solid blue;
     justify-content: space-around;
+    padding: 80px;
 }
 
 .card {
-    border: 1px solid black;
-    height: 200px;
-    width: 200px;
+    border: 2px solid black;
+    height: 250px;
+    width: 250px;
 }
 
+.card h5 {
+    text-align: center;
+    padding-top: 9px;
+}
+
+.card button {
+    margin-left: 70px;
+}
+
+.card button:hover {
+    cursor: pointer;
+}
