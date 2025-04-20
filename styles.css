@@ -143,4 +143,5 @@ p {
 
 .card button:hover {
     cursor: pointer;
+    border-radius: 0.25rem;
 }
