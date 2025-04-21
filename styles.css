@@ -145,3 +145,8 @@ p {
     cursor: pointer;
     border-radius: 0.25rem;
 }
+
+.js-logo {
+    height: 200px;
+    margin-left: 150px;
+}
