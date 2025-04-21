@@ -184,8 +184,12 @@ p {
     z-index: 5;
 } */
 
-#modal-with-fade {
+/* <section id="modal-with-fade"> */
+
+#modal-with-fade-section {
     height: 100vh;
     width: 100vw;
     border: 1px solid red;
 }
+
+
