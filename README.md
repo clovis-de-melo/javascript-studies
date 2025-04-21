@@ -7,6 +7,7 @@ Feel free to fork this repository.
 ## Sections
 
 * [What is JavaScript](#what-is-javascript)
+* [HTML defer Attribute](#html-script-defer-attribute)
 * [JavaScript Indentation (best practices)](#javascript-indentation-best-practices)
 * [JavaScript Keywords](#javascript-keywords)
 * [JavaScript Variables](#javascript-variables)
@@ -22,6 +23,31 @@ Feel free to fork this repository.
 Created by Brendan Eich, in 1995, JavaScript is a scripting language that allows developers to implement complex features on web pages beyond simple static content. 
 
 JavaScript (JS) is a versatile, lightweight, interpreted programming language primarily used to add interactivity and dynamic content to web pages, but also used in various other environments like Node.js for server-side development. 
+</details>
+
+## HTML &#60;script&#62; defer Attribute
+
+<details>
+<summary>See defer attribute details</summary>
+
+The **defer** attribute is a boolean attribute.
+
+If the **defer** attribute is set, it specifies that the script is downloaded in parallel to parsing the page, and executed after the page has finished parsing.
+
+Note: 
+
+* The defer attribute is only for external scripts (should only be used if the src attribute is present).
+
+* If defer is present (and not async): The script is downloaded in parallel to parsing the page, and executed after the page has finished parsing
+
+* If neither async or defer is present: The script is downloaded and executed immediately, blocking parsing until the script is completed
+
+Example: 
+
+```js
+<script src="/app.js" defer></script> 
+```
+
 </details>
 
 ## JavaScript Indentation (best practices)
@@ -118,6 +144,8 @@ The table below explains the comparison operators:
 `W3 Schools`
 
 [JS Tutorial | W3 Schools](https://www.w3schools.com/js/default.asp)
+
+[HTML script defer attribute](https://www.w3schools.com/TAgs/att_script_defer.asp)
 
 `Toptal Designers`
 
