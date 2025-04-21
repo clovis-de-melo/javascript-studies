@@ -141,12 +141,34 @@ p {
     margin-left: 70px;
 }
 
-.card button:hover {
+/* .card button:hover {
     cursor: pointer;
     border-radius: 0.25rem;
-}
+} */
 
 .js-logo {
     height: 200px;
     margin-left: 150px;
 }
+
+.modal-body {
+    /* position: relative; */
+    border: 1px solid black;
+    height: 300px;
+    width: 300px;
+}
+
+.card-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 0.5rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: 0.4s;
+}
+
+.card-btn:hover {
+    opacity: 0.8;
+}
+
