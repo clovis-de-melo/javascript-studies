@@ -193,3 +193,17 @@ p {
 }
 
 
+#open-modal-with-fade-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 0.9;
+    transition: 0.4s;
+}
+
+#open-modal-with-fade-button:hover {
+    opacity: 1;
+}
