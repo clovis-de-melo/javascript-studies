@@ -118,6 +118,11 @@ function closeModal() {
 // Several cards section 
 
 function openCard() {
-    console.log("function openCard is working")
+    console.log("function openCard is working");
 }
 
+// Modal with fade 
+
+function openFademodal() {
+    console.log("openFademodal function is working");
+}
