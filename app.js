@@ -125,4 +125,5 @@ function openCard() {
 
 function openFademodal() {
     console.log("openFademodal function is working");
+    document.getElementById("modal-with-fade").style.display = "block";
 }
