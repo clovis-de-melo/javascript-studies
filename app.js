@@ -47,9 +47,9 @@ function resetFontcolor() {
 
 // Using onclick function
 
-function convert() {
+/* function convert() {
     console.log("convert button is working");
-}
+} */
 
 
 // Using ID
@@ -88,18 +88,18 @@ function hideDateAndTime() {
 
 // Currency Converter 
 
-let dolar = 5.84
+/* let dolar = 5.84
 
 let usdInput = document.querySelector("#usd")
-let brlInput = document.querySelector("#brl")
+let brlInput = document.querySelector("#brl") */
 
-usdInput.addEventListener("keyup", () => {
+/* usdInput.addEventListener("keyup", () => {
 
 })
 
 brlInput.addEventListener("keyup"), () => {
 
-}
+} */
 
 // PopUp Modal 
 
@@ -127,3 +127,8 @@ function openFademodal() {
     console.log("openFademodal function is working");
     document.getElementById("modal-with-fade").style.display = "block";
 }
+
+// Query Selector 
+
+let header = document.querySelector('mainHeader');
+console.log(header.textContent);
