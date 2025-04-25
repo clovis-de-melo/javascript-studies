@@ -207,3 +207,8 @@ p {
 #open-modal-with-fade-button:hover {
     opacity: 1;
 }
+
+.modal-with-fade-content {
+    border: 1px solid black;
+    display: none;
+}
