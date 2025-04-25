@@ -208,7 +208,15 @@ p {
     opacity: 1;
 }
 
+#open-modal-with-fade-button {
+    margin: 500px;
+}
+
 .modal-with-fade-content {
     border: 1px solid black;
+    display: none;
+}
+
+.modal-with-fade-header {
     display: none;
 }
