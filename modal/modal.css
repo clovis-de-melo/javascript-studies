@@ -32,6 +32,8 @@ h2 {
     width: 100vw;
 }
 
+
+
 button {
     padding: .6rem 1.2rem;
     background-color: #888;
@@ -85,4 +87,8 @@ button:hover {
 
 .modal-body p {
     margin-bottom: 1rem;
+}
+
+#modal.hide, #fade.hide {
+    opacity: 0;
 }
