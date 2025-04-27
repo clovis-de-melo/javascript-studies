@@ -1,7 +1,7 @@
 // Simple Modal 
 
 function learnMore() {
-    console.log("learn more is working")
+    console.log("learn more is working");
 }
 
 
