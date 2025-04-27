@@ -27,6 +27,22 @@ h2 {
     padding-top: 20px;
 }
 
+#simple-modal-button-container {
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+}
+
+#learn-more-btn {
+    background-color: blue;
+}
+
+
+
+/* Complex Modal section starts here */
+
 #js-modal-section {
     height: 100vh;
     width: 100vw;
