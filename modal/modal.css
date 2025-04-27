@@ -4,3 +4,38 @@
     box-sizing: border-box;
 }
 
+body {
+    padding: 1rem;
+}
+
+header {
+    background-color: black;
+    color: white;
+    height: 60px;
+    text-align: center;
+    padding-top: 10px;
+    /* font-size: larger; */
+}
+
+#simple-modal-section {
+    height: 100vh;
+    width: 100vw;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+#js-modal-section {
+    height: 100vh;
+    width: 100vw;
+}
+
+button {
+    padding: .6rem 1.2rem;
+    background-color: #888;
+    color: #fff;
+    border: none;
+    border-radius: .25rem;
+}
