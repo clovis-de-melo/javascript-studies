@@ -1,6 +1,8 @@
 // Simple Modal 
 
-
+function learnMore() {
+    console.log("learn more is working")
+}
 
 
 // Modal JS Modal Tutorial (Matheus Battisti - Hora de Codar)
