@@ -49,6 +49,12 @@ h2 {
     display: none;
 }
 
+#simple-card-close-x {
+    text-align: end;
+    font-size: larger;
+    padding: 5px;
+    cursor: pointer;
+}
 
 
 /* Complex Modal section starts here */
