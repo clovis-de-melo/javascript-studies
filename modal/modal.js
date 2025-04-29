@@ -2,6 +2,7 @@
 
 function learnMore() {
     console.log("learn more is working");
+    document.getElementById('simple-modal-card').style.display = "block";
 }
 
 
