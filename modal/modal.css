@@ -20,6 +20,7 @@ header {
 #simple-modal-section {
     height: 100vh;
     width: 100vw;
+    border: 1px solid red;
 }
 
 h2 {
@@ -28,15 +29,24 @@ h2 {
 }
 
 #simple-modal-button-container {
-    border: 1px solid red;
+    border: 1px solid black;
+    height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50%;
 }
 
 #learn-more-btn {
     background-color: blue;
+}
+
+#simple-modal-card {
+    border: 1px solid blue;
+    height: 300px;
+    width: 300px;
+    background-color: #ccc;
+    position: absolute;
+    display: none;
 }
 
 
