@@ -5,6 +5,11 @@ function learnMore() {
     document.getElementById('simple-modal-card').style.display = "block";
 }
 
+function closeLearnMore() {
+    console.log("close learn more modal is working");
+    document.getElementById('simple-modal-card').style.display = "none";
+}
+
 
 // Modal JS Modal Tutorial (Matheus Battisti - Hora de Codar)
 
