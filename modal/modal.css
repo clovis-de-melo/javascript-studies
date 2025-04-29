@@ -56,6 +56,17 @@ h2 {
     cursor: pointer;
 }
 
+#simple-modal-card-heading {
+    text-align: center;
+    padding-top: 22px;
+    padding-bottom: 25px;
+    font-size: larger;
+}
+
+#simple-modal-card-paragraph {
+    padding: 14px;
+}
+
 
 /* Complex Modal section starts here */
 
