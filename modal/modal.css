@@ -67,6 +67,29 @@ h2 {
     padding: 14px;
 }
 
+/* Two cards with simple modal (On Click) */
+
+#two-cards-with-simple-modal-section {
+    height: 100vh;
+    width: 100vw;
+    border: 2px solid blue;
+}
+
+#simple-modal-card-wrapper {
+    border: 1px solid green;
+    height: 500px;
+}
+
+#simple-modal-card-one {
+    border: 1px solid red;
+    background-color: red;
+}
+
+#simple-modal-card-two {
+    border: 1px solid slateblue;
+    background-color: slateblue;
+}
+
 
 /* Complex Modal section starts here */
 
