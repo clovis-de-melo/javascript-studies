@@ -36,6 +36,10 @@ h2 {
     align-items: center;
 }
 
+#simple-modal-card-one-paragraph {
+    display: none;
+}
+
 #learn-more-btn {
     background-color: blue;
 }
