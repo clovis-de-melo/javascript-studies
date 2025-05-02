@@ -73,22 +73,30 @@ h2 {
     height: 100vh;
     width: 100vw;
     border: 2px solid blue;
-    display: flex;
+    /* display: flex; */
 }
 
 #simple-modal-card-wrapper {
     border: 1px solid green;
     height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
 }
 
 #simple-modal-card-one {
     border: 1px solid red;
     background-color: red;
+    height: 400px;
+    width: 200px;
 }
 
 #simple-modal-card-two {
     border: 1px solid slateblue;
     background-color: slateblue;
+    height: 400px;
+    width: 200px;
 }
 
 
