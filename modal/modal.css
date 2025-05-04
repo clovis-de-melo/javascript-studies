@@ -36,16 +36,44 @@ h2 {
     align-items: center;
 }
 
+/* Card One  */
+
 #simple-modal-card-one-paragraph {
     display: none;
+    border: 3px solid black;
+    width: 500px;
+    height: 300px;
+    background-color: black;
+    color: white;
+
 }
+
+#simple-modal-card-one h5 {
+    padding-top: 150px;
+    text-align: center;
+}
+
+#simple-modal-card-one-btn {
+    margin-top: 30px;
+}
+
+/* Card Two */
 
 #simple-modal-card-two-paragraph {
     display: none;
 }
 
+#simple-modal-card-two h5 {
+    padding-top: 150px;
+    text-align: center;
+}
+
 #learn-more-btn {
     background-color: blue;
+}
+
+#simple-modal-card-two-btn {
+    margin-top: 30px;
 }
 
 #simple-modal-card {
