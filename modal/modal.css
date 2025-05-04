@@ -40,6 +40,10 @@ h2 {
     display: none;
 }
 
+#simple-modal-card-two-paragraph {
+    display: none;
+}
+
 #learn-more-btn {
     background-color: blue;
 }
