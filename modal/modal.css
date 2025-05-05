@@ -127,9 +127,13 @@ h2 {
     display: none;
 }
 
-
 .click-me-modal-content {
-    display: none;
+    /* display: none; */
+}
+
+#open-click-me-modal-btn {
+    background-color: green;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 
