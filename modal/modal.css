@@ -103,6 +103,34 @@ h2 {
     padding: 14px;
 }
 
+/* click-me-modal section */
+
+#click-me-modal-section {
+    width: 100vw;
+    height: 100vh;
+    border: 1px solid red;
+    background-color: #edeef6;
+}
+
+#click-me-button-modal-wrapper {
+    border: 1px solid blue;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#click_me_modal_container {
+    display: none;
+}
+
+
+.click-me-modal-content {
+    display: none;
+}
+
+
+
 /* Two cards with simple modal (On Click) */
 
 #two-cards-with-simple-modal-section {
@@ -134,7 +162,6 @@ h2 {
     height: 400px;
     width: 200px;
 }
-
 
 /* Complex Modal section starts here */
 
