@@ -38,8 +38,10 @@ console.log(answer3); */
 
 // String Properties 
 
-var myString = "This is my string";
+var myString = "Welcome to the String course tutorial";
 
 console.log(myString.length);
-console.log(myString.charCodeAt);
-console.log(myString.valueOf);
+console.log(myString.toUpperCase());
+console.log(myString.charCodeAt());
+console.log(myString.valueOf());
+
