@@ -1,5 +1,7 @@
 // Variables 
 
+// var, let, const 
+
 let age = 90 // number type
 let musicName = "Go with the flow" // string type
 let loggedIn = false // boolean type
@@ -29,3 +31,6 @@ console.log(actor.name);
 console.log(actor.level);
 console.log(actor.language);
 console.log(actor.hired);
+
+// Const 
+
