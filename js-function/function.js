@@ -107,3 +107,6 @@ console.log(sumNumbers(1, 1))
 
 // 
 
+// Function declaration and Function expression assigned to a variable 
+
+
