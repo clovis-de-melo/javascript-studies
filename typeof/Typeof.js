@@ -25,3 +25,13 @@ typeof false          // Returns boolean
 typeof 1234n          // Returns bigint
 typeof Symbol()       // Returns symbol
 typeof x              // Returns undefined
+
+//
+
+let thing = 12;
+
+thing = "twelve";
+
+console.log(typeof thing); // string 
+
+
