@@ -132,7 +132,7 @@ x = 5
 
 The table below explains the comparison operators:
 
-![JavaScript Operators Table](/img/JavaScript%20Operators%20Table.png)
+![JavaScript Operators Table](/src/img/javascript-operators-table.png)
 
 </details>
 
