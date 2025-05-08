@@ -38,3 +38,6 @@ emailInputs.forEach(input => console.log(input.placeholder));
 let thirdListItems = document.querySelectorAll('ul > li:nth-child(3n)');
 thirdListItems.forEach(item => console.log(item.textContent));
 
+let paragraphsAfterHeading = document.querySelectorAll('h2 + p');
+paragraphsAfterHeading.forEach(p => console.log(p.textContent));
+
