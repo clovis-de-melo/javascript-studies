@@ -41,3 +41,12 @@ thirdListItems.forEach(item => console.log(item.textContent));
 let paragraphsAfterHeading = document.querySelectorAll('h2 + p');
 paragraphsAfterHeading.forEach(p => console.log(p.textContent));
 
+// Matches method 
+
+let elements = document.querySelectorAll('.content *');
+
+elements.forEach(element => {
+    if(element.matches('.active')) {
+        console.log('Found active element:', element);
+    }
+})
