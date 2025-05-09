@@ -1,5 +1,19 @@
 // Function 
 
+// Basics 
+
+const myName = "Clovis de Melo";
+const myAge = 36;
+const myCity = "Recife";
+
+function printUserData() {
+    console.log("The user name is: " + myName);
+    console.log("The user is " + myAge + " years old");
+    console.log("The user is currently based in " + myCity);
+}
+
+printUserData()
+
 // input: data that we can send to the function (as long as we want to)
 // process
 // output: result or return 
