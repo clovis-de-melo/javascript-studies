@@ -5,11 +5,13 @@
 const myName = "Clovis de Melo";
 const myAge = 36;
 const myCity = "Recife";
+const myCountry = "Brazil";
 
 function printUserData() {
     console.log("The user name is: " + myName);
     console.log("The user is " + myAge + " years old");
     console.log("The user is currently based in " + myCity);
+    console.log("The user is current based in " + myCountry);
 }
 
 printUserData()
