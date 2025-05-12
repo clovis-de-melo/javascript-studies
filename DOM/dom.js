@@ -78,3 +78,48 @@ for (let i = 0; i < paragraphs.length; i++) {
 
 let highlightedSpans = document.querySelectorAll('span.highlight');
 highlightedSpans.forEach(span => console.log(span));
+
+// 
+
+// Modifying DOM Elements 
+
+// Changing text and HTML content 
+
+let messageParagraph = document.getElementById('message');
+
+messageParagraph.innerText = "This text has been changed with innerText element (no function, just variable)";
+
+// innerHTML 
+
+function placeholderChange() {
+    console.log("innerHTML button is working");
+    document.getElementById('placeholder-text').innerHTML = "The content has been changed using innerHTML";
+}
+
+function placeholderReset() {
+    console.log("innerHTML reset button is working");
+    document.getElementById('placeholder-text').innerHTML = "Placeholder text";
+}
+
+// Changing text with onclick, function and variable 
+
+function updateText() {
+    console.log("updateText button is working");
+
+    let paragraphContent = document.getElementById('paragraph-text');
+
+    paragraphContent.innerText = "This text has been changed with a JS Function";
+}
+
+function resetText() {
+    console.log("resetText button is working");
+
+    let paragraphContent = document.getElementById('modify-wrapped-text');
+
+    paragraphContent.innerText = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit iste eius enim provident at! Doloribus, rem obcaecati, fugit autem error harum totam ea, veniam itaque ex deleniti voluptatum vero quasi?";
+}
+
+// Add paragraph 
+
+
+
