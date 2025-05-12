@@ -57,3 +57,7 @@ button:hover {
     background-color: #ffeeba;
     border-color: #ffeeba;
 }
+
+h1, h2 {
+    text-align: center;
+}
