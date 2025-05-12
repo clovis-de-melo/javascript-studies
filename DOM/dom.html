@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DOM</title>
+    <title>JS DOM</title>
     <link rel="stylesheet" href="/DOM/dom.css">
+    <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" type="image/x-icon">
     <script src="/DOM/dom.js" defer></script>
 </head>
 <body>
     <h1 id="dashboardHeader">Digital Object Model (DOM)</h1>
-    <button onclick="buttonJS('')">JavaScript</button>
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae iusto praesentium in cumque officiis illum voluptatibus, explicabo nulla facere, commodi, eaque aut?</p>
+    <button onclick="buttonJS('')">JavaScript</button>
     <h3>Query Selector</h3>
     <div class="content">
         <ul class="menu">
@@ -56,7 +57,36 @@
     </div>
     <div>
         <h2>Modifying DOM Elements</h2>
-        <h3>Changing text and HTML content</h3>
+        <h3><u>Changing text content</u></h3>
+        <h4>* Change text with innerText: getElementById and variable</h4>
+        <div>
+            <p id="message">Message (change without function)</p>
+        </div>
+        <h4>* Change text with innerHTML</h4>
+        <div>
+            <p id="placeholder-text">Placeholder text</p>
+            <button id="placeholder-text-btn" onclick="placeholderChange()">Click to change text information with innerHTML</button>
+            <button class="secondary-button" onclick="placeholderReset()">Reset text</button>
+        </div>
+        <h4>* Change text with innerText: onclick, variable and function</h4>
+        <div>
+            <p id="paragraph-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit iste eius enim provident at!</p>
+            <button id="modify-text" onclick="updateText()">Click to change HTML text</button>
+            <button class="secondary-button" onclick="resetText()">Reset text</button>
+        </div>
+        <h4>* Change text information and CSS properties</h4>
+        <div class="card-wrapper">
+            <p>Card heading</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit iste eius enim provident at!</p>
+            <button id="" onclick="">Click to change HTML text</button>
+            <button class="secondary-button" onclick="">Reset text</button>
+        </div>
+        <h3><u>Adding HTML content</u></h3>
+        <div>
+            <p>Placeholder text</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, pariatur consectetur atque neque nostrum iure placeat delectus earum ducimus natus dolores ab quasi sint voluptatibus reprehenderit impedit quam sit repudiandae!</p>
+            <button id="add-paragraph" onclick="addParagraph()">Click to add a paragraph</button>
+        </div>
     </div>
 </body>
 </html>
