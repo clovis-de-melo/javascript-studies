@@ -121,5 +121,47 @@ function resetText() {
 
 // Add paragraph 
 
+/* let content = document.getElementById('content-added');
 
+content.innerHTML = 'New paragraph added'; */
 
+function addParagraph() {
+    document.getElementById('content-added').style.display = "block";
+}
+
+function hideParagraph() {
+    document.getElementById('content-added').style.display = "none";
+}
+
+// Add style 
+
+function addStyle() {
+    let textToStyle = document.getElementById('textToStyle');
+
+    textToStyle.style.color = 'green';
+    textToStyle.style.backgroundColor = 'lightblue'; 
+    textToStyle.style.fontSize = '18px';
+    /* textToStyle.style.fontWeight = 'bold'; */
+
+    // Toggling font weight
+
+    textToStyle.style.fontWeight = isBold ? 'normal' : 'bold';
+    isBold = !isBold;
+}
+
+function resetStyle() {
+    let textToStyle = document.getElementById('textToStyle');
+
+    textToStyle.style.color = 'black';
+    textToStyle.style.backgroundColor = 'rgb(249,249,249)';
+    textToStyle.style.fontSize = '16px';
+}
+
+// getComputedStyle
+
+const style = getComputedStyle(document.getElementById('myElement'));
+     for (let i = 0; i < style.length; i++) {
+       const propertyName = style.item(i);
+       const propertyValue = style.getPropertyValue(propertyName);
+       console.log(`${propertyName}: ${propertyValue}`);
+     }
