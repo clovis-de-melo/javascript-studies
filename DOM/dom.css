@@ -27,14 +27,14 @@ button, .notification {
     max-width: 600px;
 }
 
-p, 
+/* p, 
 span {
     margin: 10px 0;
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 4px;
 }
-
+ */
 button {
     background-color: #007bff;
     color: white;
@@ -49,6 +49,20 @@ button:hover {
     background-color: #0056b3;
 }
 
+.secondary-button {
+    background-color: gray;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.secondary-button:hover {
+    background-color: rgb(66, 66, 66);
+}
+
 .info {
     background-color: #e7f5ff;
 }
@@ -58,6 +72,12 @@ button:hover {
     border-color: #ffeeba;
 }
 
-h1, h2 {
+h1, h2, h3 {
     text-align: center;
 }
+
+.card-wrapper {
+    border: 1px solid black;
+}
+
+
